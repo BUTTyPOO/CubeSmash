@@ -47,7 +47,6 @@ public class PlayerAttack : MonoBehaviour
                 damageable?.TakeDamage(weaponDmg);
                 SoundManager.instance.PlaySound(0);
             }
-            print(raycast.collider.gameObject);
         }
     }
 
