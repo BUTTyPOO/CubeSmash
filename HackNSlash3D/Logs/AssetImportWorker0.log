@@ -420,3 +420,59 @@ System memory in use after: 66.8 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1786.
 Total: 1.587800 ms (FindLiveObjects: 0.137500 ms CreateObjectMapping: 0.049300 ms MarkObjects: 1.357000 ms  DeleteObjects: 0.043300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 71.715588 seconds.
+  path: Assets/_Project/Scripts/EnemySpawner.cs
+  artifactKey: Guid(4a833679518c935468999d214665d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/EnemySpawner.cs using Guid(4a833679518c935468999d214665d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a6c85c7e9cbbbf7207433e49c30232') in 0.006598 seconds
+  Import took 0.008652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019003 seconds.
+  path: Assets/_Project/Scripts/EnemySpawner.cs
+  artifactKey: Guid(4a833679518c935468999d214665d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/EnemySpawner.cs using Guid(4a833679518c935468999d214665d6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a6c85c7e9cbbbf7207433e49c30232') in 0.002277 seconds
+  Import took 0.004064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.707278 seconds.
+  path: Assets/_Project/Scripts/Player/PlayerAttack.cs
+  artifactKey: Guid(7296069e74ccabb4c9b40894d885191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/Player/PlayerAttack.cs using Guid(7296069e74ccabb4c9b40894d885191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb37b949f4193b9840de59c86df0e50b') in 0.002247 seconds
+  Import took 0.006545 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001354 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.616 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1275 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.8 MB.
+System memory in use after: 66.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1789.
+Total: 1.335700 ms (FindLiveObjects: 0.130200 ms CreateObjectMapping: 0.038600 ms MarkObjects: 1.124500 ms  DeleteObjects: 0.041800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.769141 seconds.
+  path: Assets/_Project/Scripts/Player/PlayerAttack.cs
+  artifactKey: Guid(7296069e74ccabb4c9b40894d885191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Project/Scripts/Player/PlayerAttack.cs using Guid(7296069e74ccabb4c9b40894d885191c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b918fd56c3a8dcd258ad3bfc0ff69cdf') in 0.005330 seconds
+  Import took 0.008787 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
