@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5764058052847342534}
   - component: {fileID: 6039900196362624852}
   - component: {fileID: 7827842649424795419}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WeaponMesh
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 4255398694414900218}
   - component: {fileID: 4255398694414900216}
   - component: {fileID: 4255398694414900217}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 4255398695299226370}
   - component: {fileID: 4255398695299226371}
   - component: {fileID: 4255398695299226368}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 4255398695485711574}
   - component: {fileID: 4255398695485711579}
   - component: {fileID: 4255398695485711572}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +346,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4255398695717916110}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,7 +383,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4255398695763020820}
   - component: {fileID: 4255398695763020827}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -473,7 +473,7 @@ GameObject:
   - component: {fileID: 4255398696156136398}
   - component: {fileID: 4255398696156136396}
   - component: {fileID: 4255398696156136397}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 4255398696222773899}
   - component: {fileID: 4255398696222773892}
   - component: {fileID: 4255398696222773897}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +659,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2167646280579109868}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Weapon
   m_TagString: Player
   m_Icon: {fileID: 0}

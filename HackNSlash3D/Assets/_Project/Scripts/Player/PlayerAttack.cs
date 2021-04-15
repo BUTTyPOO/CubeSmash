@@ -36,8 +36,10 @@ public class PlayerAttack : MonoBehaviour
         if (!canAttack) return;
 
         AnimateAttack();
+
         RaycastHit raycast;
-        if (Physics.Raycast(transform.position, weapon.transform.forward, out raycast))
+        int layerMask = 1 << 6;
+        if (Physics.Raycast(transform.position, weapon.transform.forward, out raycast, 3.0f, ~layerMask))
         {
             if (raycast.collider.CompareTag("Enemy"))
             {
@@ -45,6 +47,7 @@ public class PlayerAttack : MonoBehaviour
                 damageable?.TakeDamage(weaponDmg);
                 SoundManager.instance.PlaySound(0);
             }
+            print(raycast.collider.gameObject);
         }
     }
 

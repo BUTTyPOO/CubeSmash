@@ -68,8 +68,9 @@ public class Enemy : MonoBehaviour, IDamageable
 
     void Attack()
     {
+        int layerMask = 1 << 7;
         RaycastHit raycast;
-        if (Physics.Raycast(transform.position, transform.forward, out raycast))
+        if (Physics.Raycast(transform.position, transform.forward, out raycast, attackRange, ~layerMask))
         {
             if (raycast.collider.CompareTag("Player"))
             {
