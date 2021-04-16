@@ -34,10 +34,11 @@ public class PlayerAttack : MonoBehaviour
     void Attack()
     {
         if (!canAttack) return;
-
         AnimateAttack();
+        
         RaycastHit raycast;
-        if (Physics.Raycast(transform.position, weapon.transform.forward, out raycast))
+        int layerMask = 1 << 6; // player layer
+        if (Physics.Raycast(transform.position, weapon.transform.forward, out raycast, 3.0f, ~layerMask))
         {
             if (raycast.collider.CompareTag("Enemy"))
             {
